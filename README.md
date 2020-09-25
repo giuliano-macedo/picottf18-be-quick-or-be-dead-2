@@ -1,7 +1,7 @@
 # PicoCTF 2018 solution for the problem 'Be quick or be dead 2' using the iterative Fibonacci function
 
 ## disclaimer
-i got the binary from (here)[https://github.com/PlatyPew/picoctf-2018-writeup/blob/master/Reversing/be-quick-or-be-dead-2/files/be-quick-or-be-dead-2]
+i got the binary from [here](https://github.com/PlatyPew/picoctf-2018-writeup/blob/master/Reversing/be-quick-or-be-dead-2/files/be-quick-or-be-dead-2)
 **this solution is very overkill**
 
 # pre-requisites
