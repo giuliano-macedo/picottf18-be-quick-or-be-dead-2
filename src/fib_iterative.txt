@@ -1,0 +1,17 @@
+    1250:       85 ff                   test   edi, edi
+    1252:       7e 1c                   jle    0x1270
+    1254:       31 d2                   xor    edx, edx
+    1256:       be 01 00 00 00          mov    esi, 0x1
+    125b:       31 c9                   xor    ecx, ecx
+    125d:       eb 03                   jmp    0x1262
+    125f:       90                      nop
+    1260:       89 c1                   mov    ecx, eax
+    1262:       83 c2 01                add    edx, 0x1
+    1265:       8d 04 31                lea    eax, [rcx+rsi*1]
+    1268:       89 ce                   mov    esi, ecx
+    126a:       39 d7                   cmp    edi, edx
+    126c:       75 f2                   jne    0x1260
+    126e:       c3                      ret    
+    126f:       90                      nop
+    1270:       31 c0                   xor    eax, eax
+    1272:       c3                      ret
